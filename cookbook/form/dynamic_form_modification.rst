@@ -307,7 +307,7 @@ and fill in the listener logic::
 
                     $formOptions = array(
                         'class' => 'AppBundle\Entity\User',
-                        'property' => 'fullName',
+                        'choice_label' => 'fullName',
                         'query_builder' => function (EntityRepository $er) use ($user) {
                             // build a custom query
                             // return $er->createQueryBuilder('u')->addOrderBy('fullName', 'DESC');
